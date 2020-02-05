@@ -1,0 +1,28 @@
+{
+  "npmScope": "technoclub",
+  "implicitDependencies": {
+    "workspace.json": "*",
+    "package.json": {
+      "dependencies": "*",
+      "devDependencies": "*"
+    },
+    "tsconfig.json": "*",
+    "tslint.json": "*",
+    "nx.json": "*"
+  },
+  "projects": {
+    "eagles-share": {
+      "tags": []
+    },
+    "eagles-share-e2e": {
+      "tags": [],
+      "implicitDependencies": ["eagles-share"]
+    },
+    "api": {
+      "tags": []
+    },
+    "api-interfaces": {
+      "tags": []
+    }
+  }
+}
